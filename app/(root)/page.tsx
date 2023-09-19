@@ -1,4 +1,4 @@
-import { currentUser } from "@clerk/nextjs";
+import { UserButton, currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
 import ThreadCard from "@/components/cards/ThreadCard";
@@ -59,3 +59,6 @@ async function Home({
 }
 
 export default Home;
+<div>
+  <UserButton afterSignOutUrl="/"/>
+</div>
