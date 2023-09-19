@@ -1,3 +1,4 @@
+"use client" ;
 import { currentUser } from "@clerk/nextjs";
 
 import UserCard from "../cards/UserCard";
